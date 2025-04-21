@@ -1,0 +1,13 @@
+! name: patents
+! description: Prioritizes specific patent websites for better patent searching.
+! author: Finn Lyu
+! public: true
+
+$boost=4, site=patents.google.com
+$boost=3, site=justia.com
+$boost=3, site=www.lens.org
+$boost=2, site=worldwide.espacenet.com
+$boost=2, site=patft.uspto.gov
+$boost=2, site=ppubs.uspto.gov
+$boost=2, site=uspto.gov
+$boost=2, site=patentscope.wipo.int
